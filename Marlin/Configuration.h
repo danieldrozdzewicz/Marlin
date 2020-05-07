@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Sapphire Pro"
+#define CUSTOM_MACHINE_NAME "Sapphire Pro dd"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -499,9 +499,16 @@
   //#define DEFAULT_Kd 440
 
   // Sapphire Pro stock hotend AutoTuned
-  #define DEFAULT_Kp 18
-  #define DEFAULT_Ki 1.3
-  #define DEFAULT_Kd 61
+  //#define DEFAULT_Kp 18
+  //#define DEFAULT_Ki 1.3
+  // #define DEFAULT_Kd 61
+  
+// Sapphire Pro stock hotend AutoTuned  moje Autosetupy
+  #define DEFAULT_Kp 9.30
+  #define DEFAULT_Ki 0.46
+  #define DEFAULT_Kd 47.36
+  
+
 
   // Sapphire Pro stock hotend with PT100 manually tuned
   //#define DEFAULT_Kp 19
@@ -741,11 +748,11 @@
 //#define DISTINCT_E_FACTORS
 
 /**
- * Default Axis Steps Per Unit (steps/mm)
+ * Default Axis Steps Per Unit (steps/mm) RRRR
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 402 } // Calibrated stock extruder - 402
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 445 } // Calibrated stock extruder - 402 mój 444.44
 
 /**
  * Default Max Feed Rate (mm/s)
