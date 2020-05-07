@@ -748,7 +748,7 @@
 //#define DISTINCT_E_FACTORS
 
 /**
- * Default Axis Steps Per Unit (steps/mm) RRRR mój
+ * Default Axis Steps Per Unit (steps/mm) 
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
