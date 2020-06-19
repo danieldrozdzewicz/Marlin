@@ -813,7 +813,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    7.0  // May be used by Linear Advance
+#define DEFAULT_EJERK    7.0  // May be used by Linear Advance oryg 7.0
 
 /**
  * Junction Deviation Factor
